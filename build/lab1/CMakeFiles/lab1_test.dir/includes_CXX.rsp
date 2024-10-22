@@ -1,0 +1,1 @@
+-IC:/C++projects/OOP/lab1/../lab1/include -isystem "C:/C++projects/OOP/build/_deps/googletest-src/googletest/include" -isystem "C:/C++projects/OOP/build/_deps/googletest-src/googletest"

@@ -1,0 +1,37 @@
+Start testing: Oct 21 11:06 Волгоград (зима)
+----------------------------------------------------------
+1/1 Testing: lab1_test
+1/1 Test: lab1_test
+Command: "C:/C++projects/OOP/out/build/GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)/lab1/lab1_test.exe"
+Directory: C:/C++projects/OOP/out/build/GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)/lab1
+"lab1_test" start time: Oct 21 11:06 Волгоград (зима)
+Output:
+----------------------------------------------------------
+Running main() from C:\C++projects\OOP\out\build\GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)\_deps\googletest-src\googletest\src\gtest_main.cc
+[==========] Running 5 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 5 tests from GcdTest
+[ RUN      ] GcdTest.PositiveNumbers
+[       OK ] GcdTest.PositiveNumbers (0 ms)
+[ RUN      ] GcdTest.SameNumbers
+[       OK ] GcdTest.SameNumbers (0 ms)
+[ RUN      ] GcdTest.ZeroInput
+[       OK ] GcdTest.ZeroInput (0 ms)
+[ RUN      ] GcdTest.OneInput
+[       OK ] GcdTest.OneInput (0 ms)
+[ RUN      ] GcdTest.LargeNumbers
+[       OK ] GcdTest.LargeNumbers (0 ms)
+[----------] 5 tests from GcdTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 5 tests.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"lab1_test" end time: Oct 21 11:06 Волгоград (зима)
+"lab1_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 21 11:06 Волгоград (зима)

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20241021-0610-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.30.3"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Windows"
+	Hostname="HuaweiRomanov"
+	OSRelease=" Personal"
+	OSVersion=" (Build 22631)"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="12"
+	ProcessorCacheSize="-1"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="18615"
+	TotalPhysicalMemory="16183"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="2803"
+	>
+	<Testing>
+		<StartDateTime>Oct 21 11:06 [NON-UTF-8-BYTE-0xC2][NON-UTF-8-BYTE-0xEE][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xE3][NON-UTF-8-BYTE-0xEE][NON-UTF-8-BYTE-0xE3][NON-UTF-8-BYTE-0xF0][NON-UTF-8-BYTE-0xE0][NON-UTF-8-BYTE-0xE4] ([NON-UTF-8-BYTE-0xE7][NON-UTF-8-BYTE-0xE8][NON-UTF-8-BYTE-0xEC][NON-UTF-8-BYTE-0xE0])</StartDateTime>
+		<StartTestTime>1729497997</StartTestTime>
+		<TestList>
+			<Test>./lab1/lab1_test</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>lab1_test</Name>
+			<Path>./lab1</Path>
+			<FullName>./lab1/lab1_test</FullName>
+			<FullCommandLine>"C:\C++projects\OOP\out\build\GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)\lab1\lab1_test.exe"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0268294</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>"C:\C++projects\OOP\out\build\GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)\lab1\lab1_test.exe"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNkt9rwjAQx9/7V9yjRRrUORmDPYxulLFhRefLjEja3kpGk5T80P35a60WHdrtIJDLffO5O+7mTkoucxCMy54Pn1oJCO9p2O+XWn1hag2N4xlVztLE8SKjURjCcExGZADfd5PNZBzsqiMqxu5mBD2XajsZ+3STYWlorlReoEVjA6PTE5fu3fq2qTOTNPVWD62tYX4o6xZqjWnqGu4dMI5bJN4qaG0NUaESVjRxlFuulRQoKy3awJW/xGfQKM3eK89bwXw5hb2tj49kpgy3fItTJxLUphI1Fr9eF0FvAML4l4ELJrphJ4JO0Adq9SJLZy9j2nAnJJbYwThGOxFvTOfdHZ0qWtRf42iEYJVlhe/9b9YWmQ4ytZPnq3R1hUAzSc4TVQ3MHheL56e6xcNH4v0A/pj3HA==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Oct 21 11:06 [NON-UTF-8-BYTE-0xC2][NON-UTF-8-BYTE-0xEE][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xE3][NON-UTF-8-BYTE-0xEE][NON-UTF-8-BYTE-0xE3][NON-UTF-8-BYTE-0xF0][NON-UTF-8-BYTE-0xE0][NON-UTF-8-BYTE-0xE4] ([NON-UTF-8-BYTE-0xE7][NON-UTF-8-BYTE-0xE8][NON-UTF-8-BYTE-0xEC][NON-UTF-8-BYTE-0xE0])</EndDateTime>
+		<EndTestTime>1729497997</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>
