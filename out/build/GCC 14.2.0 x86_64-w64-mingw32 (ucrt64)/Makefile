@@ -223,30 +223,30 @@ gtest_main/fast:
 .PHONY : gtest_main/fast
 
 #=============================================================================
-# Target rules for targets named lab1
+# Target rules for targets named lab2
 
 # Build rule for target.
-lab1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab1
-.PHONY : lab1
+lab2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab2
+.PHONY : lab2
 
 # fast build rule for target.
-lab1/fast:
-	$(MAKE) $(MAKESILENT) -f lab1\CMakeFiles\lab1.dir\build.make lab1/CMakeFiles/lab1.dir/build
-.PHONY : lab1/fast
+lab2/fast:
+	$(MAKE) $(MAKESILENT) -f lab2\CMakeFiles\lab2.dir\build.make lab2/CMakeFiles/lab2.dir/build
+.PHONY : lab2/fast
 
 #=============================================================================
-# Target rules for targets named lab1_test
+# Target rules for targets named lab2_test
 
 # Build rule for target.
-lab1_test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab1_test
-.PHONY : lab1_test
+lab2_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab2_test
+.PHONY : lab2_test
 
 # fast build rule for target.
-lab1_test/fast:
-	$(MAKE) $(MAKESILENT) -f lab1\CMakeFiles\lab1_test.dir\build.make lab1/CMakeFiles/lab1_test.dir/build
-.PHONY : lab1_test/fast
+lab2_test/fast:
+	$(MAKE) $(MAKESILENT) -f lab2\CMakeFiles\lab2_test.dir\build.make lab2/CMakeFiles/lab2_test.dir/build
+.PHONY : lab2_test/fast
 
 # Help Target
 help:
@@ -265,8 +265,8 @@ help:
 	@echo ... gmock_main
 	@echo ... gtest
 	@echo ... gtest_main
-	@echo ... lab1
-	@echo ... lab1_test
+	@echo ... lab2
+	@echo ... lab2_test
 .PHONY : help
 
 

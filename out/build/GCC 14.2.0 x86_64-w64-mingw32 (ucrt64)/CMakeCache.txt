@@ -329,13 +329,13 @@ FETCHCONTENT_UPDATES_DISCONNECTED_GOOGLETEST:BOOL=OFF
 INSTALL_GTEST:BOOL=ON
 
 //Value Computed by CMake
-Lab1_BINARY_DIR:STATIC=C:/C++projects/OOP/out/build/GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)/lab1
+Lab1_BINARY_DIR:STATIC=C:/C++projects/OOP/out/build/GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)/lab2
 
 //Value Computed by CMake
 Lab1_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-Lab1_SOURCE_DIR:STATIC=C:/C++projects/OOP/lab1
+Lab1_SOURCE_DIR:STATIC=C:/C++projects/OOP/lab2
 
 //Value Computed by CMake
 OOP_LABS_BINARY_DIR:STATIC=C:/C++projects/OOP/out/build/GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)
