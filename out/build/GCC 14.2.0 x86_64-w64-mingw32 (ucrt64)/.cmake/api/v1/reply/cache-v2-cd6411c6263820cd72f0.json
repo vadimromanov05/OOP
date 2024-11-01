@@ -1079,7 +1079,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "5"
+			"value" : "7"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -1731,7 +1731,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/C++projects/OOP/out/build/GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)/lab2"
+			"value" : "C:/C++projects/OOP/out/build/GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)/lab3"
 		},
 		{
 			"name" : "Lab1_IS_TOP_LEVEL",
@@ -1755,7 +1755,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/C++projects/OOP/lab2"
+			"value" : "C:/C++projects/OOP/lab3"
 		},
 		{
 			"name" : "OOP_LABS_BINARY_DIR",

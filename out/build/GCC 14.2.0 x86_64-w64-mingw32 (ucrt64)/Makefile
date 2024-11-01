@@ -223,6 +223,32 @@ gtest_main/fast:
 .PHONY : gtest_main/fast
 
 #=============================================================================
+# Target rules for targets named lab1
+
+# Build rule for target.
+lab1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab1
+.PHONY : lab1
+
+# fast build rule for target.
+lab1/fast:
+	$(MAKE) $(MAKESILENT) -f lab1\CMakeFiles\lab1.dir\build.make lab1/CMakeFiles/lab1.dir/build
+.PHONY : lab1/fast
+
+#=============================================================================
+# Target rules for targets named lab1_test
+
+# Build rule for target.
+lab1_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab1_test
+.PHONY : lab1_test
+
+# fast build rule for target.
+lab1_test/fast:
+	$(MAKE) $(MAKESILENT) -f lab1\CMakeFiles\lab1_test.dir\build.make lab1/CMakeFiles/lab1_test.dir/build
+.PHONY : lab1_test/fast
+
+#=============================================================================
 # Target rules for targets named lab2
 
 # Build rule for target.
@@ -248,6 +274,32 @@ lab2_test/fast:
 	$(MAKE) $(MAKESILENT) -f lab2\CMakeFiles\lab2_test.dir\build.make lab2/CMakeFiles/lab2_test.dir/build
 .PHONY : lab2_test/fast
 
+#=============================================================================
+# Target rules for targets named lab3
+
+# Build rule for target.
+lab3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab3
+.PHONY : lab3
+
+# fast build rule for target.
+lab3/fast:
+	$(MAKE) $(MAKESILENT) -f lab3\CMakeFiles\lab3.dir\build.make lab3/CMakeFiles/lab3.dir/build
+.PHONY : lab3/fast
+
+#=============================================================================
+# Target rules for targets named lab3_test
+
+# Build rule for target.
+lab3_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab3_test
+.PHONY : lab3_test
+
+# fast build rule for target.
+lab3_test/fast:
+	$(MAKE) $(MAKESILENT) -f lab3\CMakeFiles\lab3_test.dir\build.make lab3/CMakeFiles/lab3_test.dir/build
+.PHONY : lab3_test/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -265,8 +317,12 @@ help:
 	@echo ... gmock_main
 	@echo ... gtest
 	@echo ... gtest_main
+	@echo ... lab1
+	@echo ... lab1_test
 	@echo ... lab2
 	@echo ... lab2_test
+	@echo ... lab3
+	@echo ... lab3_test
 .PHONY : help
 
 
