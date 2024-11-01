@@ -1,3 +1,41 @@
-Start testing: Oct 22 17:38 Волгоград (зима)
+Start testing: Oct 22 20:30 Волгоград (зима)
 ----------------------------------------------------------
-End testing: Oct 22 17:38 Волгоград (зима)
+1/1 Testing: lab2_test
+1/1 Test: lab2_test
+Command: "C:/C++projects/OOP/out/build/GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)/lab2/lab2_test.exe"
+Directory: C:/C++projects/OOP/out/build/GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)/lab2
+"lab2_test" start time: Oct 22 20:30 Волгоград (зима)
+Output:
+----------------------------------------------------------
+Running main() from C:\C++projects\OOP\out\build\GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)\_deps\googletest-src\googletest\src\gtest_main.cc
+[==========] Running 7 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 7 tests from DreiTest
+[ RUN      ] DreiTest.Addition
+[       OK ] DreiTest.Addition (0 ms)
+[ RUN      ] DreiTest.Subtraction
+[       OK ] DreiTest.Subtraction (0 ms)
+[ RUN      ] DreiTest.ComparisonEqual
+[       OK ] DreiTest.ComparisonEqual (0 ms)
+[ RUN      ] DreiTest.ComparisonNotEqual
+[       OK ] DreiTest.ComparisonNotEqual (0 ms)
+[ RUN      ] DreiTest.ComparisonLess
+[       OK ] DreiTest.ComparisonLess (0 ms)
+[ RUN      ] DreiTest.ComparisonGreater
+[       OK ] DreiTest.ComparisonGreater (0 ms)
+[ RUN      ] DreiTest.AddingWithZero
+[       OK ] DreiTest.AddingWithZero (0 ms)
+[----------] 7 tests from DreiTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 7 tests.
+<end of output>
+Test time =   0.28 sec
+----------------------------------------------------------
+Test Passed.
+"lab2_test" end time: Oct 22 20:30 Волгоград (зима)
+"lab2_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 22 20:30 Волгоград (зима)

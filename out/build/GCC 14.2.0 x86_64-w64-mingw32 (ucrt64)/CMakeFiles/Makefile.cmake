@@ -9,6 +9,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "C:/C++projects/OOP/CMakeLists.txt"
   "C:/C++projects/OOP/lab1/CMakeLists.txt"
+  "C:/C++projects/OOP/lab2/CMakeLists.txt"
+  "C:/C++projects/OOP/lab3/CMakeLists.txt"
   "CMakeFiles/3.30.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.30.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.30.3/CMakeRCCompiler.cmake"
@@ -83,6 +85,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "_deps/googletest-build/googletest/generated/gtest_main.pc"
   "_deps/googletest-build/googletest/CMakeFiles/CMakeDirectoryInformation.cmake"
   "lab1/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lab2/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lab3/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -93,4 +97,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
   "lab1/CMakeFiles/lab1.dir/DependInfo.cmake"
   "lab1/CMakeFiles/lab1_test.dir/DependInfo.cmake"
+  "lab2/CMakeFiles/lab2.dir/DependInfo.cmake"
+  "lab2/CMakeFiles/lab2_test.dir/DependInfo.cmake"
+  "lab3/CMakeFiles/lab3.dir/DependInfo.cmake"
+  "lab3/CMakeFiles/lab3_test.dir/DependInfo.cmake"
   )

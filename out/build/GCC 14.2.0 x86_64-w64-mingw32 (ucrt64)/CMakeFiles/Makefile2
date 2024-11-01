@@ -64,16 +64,22 @@ CMAKE_BINARY_DIR = "C:\C++projects\OOP\out\build\GCC 14.2.0 x86_64-w64-mingw32 (
 # The main recursive "all" target.
 all: _deps/googletest-build/all
 all: lab1/all
+all: lab2/all
+all: lab3/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: _deps/googletest-build/preinstall
 preinstall: lab1/preinstall
+preinstall: lab2/preinstall
+preinstall: lab3/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: _deps/googletest-build/clean
 clean: lab1/clean
+clean: lab2/clean
+clean: lab3/clean
 .PHONY : clean
 
 #=============================================================================
@@ -143,6 +149,40 @@ lab1/preinstall:
 lab1/clean: lab1/CMakeFiles/lab1.dir/clean
 lab1/clean: lab1/CMakeFiles/lab1_test.dir/clean
 .PHONY : lab1/clean
+
+#=============================================================================
+# Directory level rules for directory lab2
+
+# Recursive "all" directory target.
+lab2/all: lab2/CMakeFiles/lab2.dir/all
+lab2/all: lab2/CMakeFiles/lab2_test.dir/all
+.PHONY : lab2/all
+
+# Recursive "preinstall" directory target.
+lab2/preinstall:
+.PHONY : lab2/preinstall
+
+# Recursive "clean" directory target.
+lab2/clean: lab2/CMakeFiles/lab2.dir/clean
+lab2/clean: lab2/CMakeFiles/lab2_test.dir/clean
+.PHONY : lab2/clean
+
+#=============================================================================
+# Directory level rules for directory lab3
+
+# Recursive "all" directory target.
+lab3/all: lab3/CMakeFiles/lab3.dir/all
+lab3/all: lab3/CMakeFiles/lab3_test.dir/all
+.PHONY : lab3/all
+
+# Recursive "preinstall" directory target.
+lab3/preinstall:
+.PHONY : lab3/preinstall
+
+# Recursive "clean" directory target.
+lab3/clean: lab3/CMakeFiles/lab3.dir/clean
+lab3/clean: lab3/CMakeFiles/lab3_test.dir/clean
+.PHONY : lab3/clean
 
 #=============================================================================
 # Target rules for target _deps/googletest-build/googlemock/CMakeFiles/gmock.dir
@@ -279,8 +319,8 @@ lab1/CMakeFiles/lab1.dir/clean:
 # Target rules for target lab1/CMakeFiles/lab1_test.dir
 
 # All Build rule for target.
-lab1/CMakeFiles/lab1_test.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 lab1/CMakeFiles/lab1_test.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
+lab1/CMakeFiles/lab1_test.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) $(MAKESILENT) -f lab1\CMakeFiles\lab1_test.dir\build.make lab1/CMakeFiles/lab1_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f lab1\CMakeFiles\lab1_test.dir\build.make lab1/CMakeFiles/lab1_test.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\C++projects\OOP\out\build\GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)\CMakeFiles" --progress-num=12,13,14 "Built target lab1_test"
@@ -301,6 +341,112 @@ lab1_test: lab1/CMakeFiles/lab1_test.dir/rule
 lab1/CMakeFiles/lab1_test.dir/clean:
 	$(MAKE) $(MAKESILENT) -f lab1\CMakeFiles\lab1_test.dir\build.make lab1/CMakeFiles/lab1_test.dir/clean
 .PHONY : lab1/CMakeFiles/lab1_test.dir/clean
+
+#=============================================================================
+# Target rules for target lab2/CMakeFiles/lab2.dir
+
+# All Build rule for target.
+lab2/CMakeFiles/lab2.dir/all:
+	$(MAKE) $(MAKESILENT) -f lab2\CMakeFiles\lab2.dir\build.make lab2/CMakeFiles/lab2.dir/depend
+	$(MAKE) $(MAKESILENT) -f lab2\CMakeFiles\lab2.dir\build.make lab2/CMakeFiles/lab2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\C++projects\OOP\out\build\GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)\CMakeFiles" --progress-num=15,16,17 "Built target lab2"
+.PHONY : lab2/CMakeFiles/lab2.dir/all
+
+# Build rule for subdir invocation for target.
+lab2/CMakeFiles/lab2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\C++projects\OOP\out\build\GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)\CMakeFiles" 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab2/CMakeFiles/lab2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\C++projects\OOP\out\build\GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)\CMakeFiles" 0
+.PHONY : lab2/CMakeFiles/lab2.dir/rule
+
+# Convenience name for target.
+lab2: lab2/CMakeFiles/lab2.dir/rule
+.PHONY : lab2
+
+# clean rule for target.
+lab2/CMakeFiles/lab2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f lab2\CMakeFiles\lab2.dir\build.make lab2/CMakeFiles/lab2.dir/clean
+.PHONY : lab2/CMakeFiles/lab2.dir/clean
+
+#=============================================================================
+# Target rules for target lab2/CMakeFiles/lab2_test.dir
+
+# All Build rule for target.
+lab2/CMakeFiles/lab2_test.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
+lab2/CMakeFiles/lab2_test.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
+	$(MAKE) $(MAKESILENT) -f lab2\CMakeFiles\lab2_test.dir\build.make lab2/CMakeFiles/lab2_test.dir/depend
+	$(MAKE) $(MAKESILENT) -f lab2\CMakeFiles\lab2_test.dir\build.make lab2/CMakeFiles/lab2_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\C++projects\OOP\out\build\GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)\CMakeFiles" --progress-num=18,19,20 "Built target lab2_test"
+.PHONY : lab2/CMakeFiles/lab2_test.dir/all
+
+# Build rule for subdir invocation for target.
+lab2/CMakeFiles/lab2_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\C++projects\OOP\out\build\GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)\CMakeFiles" 7
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab2/CMakeFiles/lab2_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\C++projects\OOP\out\build\GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)\CMakeFiles" 0
+.PHONY : lab2/CMakeFiles/lab2_test.dir/rule
+
+# Convenience name for target.
+lab2_test: lab2/CMakeFiles/lab2_test.dir/rule
+.PHONY : lab2_test
+
+# clean rule for target.
+lab2/CMakeFiles/lab2_test.dir/clean:
+	$(MAKE) $(MAKESILENT) -f lab2\CMakeFiles\lab2_test.dir\build.make lab2/CMakeFiles/lab2_test.dir/clean
+.PHONY : lab2/CMakeFiles/lab2_test.dir/clean
+
+#=============================================================================
+# Target rules for target lab3/CMakeFiles/lab3.dir
+
+# All Build rule for target.
+lab3/CMakeFiles/lab3.dir/all:
+	$(MAKE) $(MAKESILENT) -f lab3\CMakeFiles\lab3.dir\build.make lab3/CMakeFiles/lab3.dir/depend
+	$(MAKE) $(MAKESILENT) -f lab3\CMakeFiles\lab3.dir\build.make lab3/CMakeFiles/lab3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\C++projects\OOP\out\build\GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)\CMakeFiles" --progress-num=21,22,23,24,25,26,27 "Built target lab3"
+.PHONY : lab3/CMakeFiles/lab3.dir/all
+
+# Build rule for subdir invocation for target.
+lab3/CMakeFiles/lab3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\C++projects\OOP\out\build\GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)\CMakeFiles" 7
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab3/CMakeFiles/lab3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\C++projects\OOP\out\build\GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)\CMakeFiles" 0
+.PHONY : lab3/CMakeFiles/lab3.dir/rule
+
+# Convenience name for target.
+lab3: lab3/CMakeFiles/lab3.dir/rule
+.PHONY : lab3
+
+# clean rule for target.
+lab3/CMakeFiles/lab3.dir/clean:
+	$(MAKE) $(MAKESILENT) -f lab3\CMakeFiles\lab3.dir\build.make lab3/CMakeFiles/lab3.dir/clean
+.PHONY : lab3/CMakeFiles/lab3.dir/clean
+
+#=============================================================================
+# Target rules for target lab3/CMakeFiles/lab3_test.dir
+
+# All Build rule for target.
+lab3/CMakeFiles/lab3_test.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
+lab3/CMakeFiles/lab3_test.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
+	$(MAKE) $(MAKESILENT) -f lab3\CMakeFiles\lab3_test.dir\build.make lab3/CMakeFiles/lab3_test.dir/depend
+	$(MAKE) $(MAKESILENT) -f lab3\CMakeFiles\lab3_test.dir\build.make lab3/CMakeFiles/lab3_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\C++projects\OOP\out\build\GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)\CMakeFiles" --progress-num=28,29,30,31,32,33,34 "Built target lab3_test"
+.PHONY : lab3/CMakeFiles/lab3_test.dir/all
+
+# Build rule for subdir invocation for target.
+lab3/CMakeFiles/lab3_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\C++projects\OOP\out\build\GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)\CMakeFiles" 11
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab3/CMakeFiles/lab3_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\C++projects\OOP\out\build\GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)\CMakeFiles" 0
+.PHONY : lab3/CMakeFiles/lab3_test.dir/rule
+
+# Convenience name for target.
+lab3_test: lab3/CMakeFiles/lab3_test.dir/rule
+.PHONY : lab3_test
+
+# clean rule for target.
+lab3/CMakeFiles/lab3_test.dir/clean:
+	$(MAKE) $(MAKESILENT) -f lab3\CMakeFiles\lab3_test.dir\build.make lab3/CMakeFiles/lab3_test.dir/clean
+.PHONY : lab3/CMakeFiles/lab3_test.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
