@@ -57,3 +57,12 @@ C:/C++projects/OOP/out/build/GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)/lab3/CMakeFi
 C:/C++projects/OOP/out/build/GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)/lab3/CMakeFiles/install.dir
 C:/C++projects/OOP/out/build/GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)/lab3/CMakeFiles/install/local.dir
 C:/C++projects/OOP/out/build/GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)/lab3/CMakeFiles/install/strip.dir
+C:/C++projects/OOP/out/build/GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)/lab4/CMakeFiles/lab4.dir
+C:/C++projects/OOP/out/build/GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)/lab4/CMakeFiles/lab4_test.dir
+C:/C++projects/OOP/out/build/GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)/lab4/CMakeFiles/test.dir
+C:/C++projects/OOP/out/build/GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)/lab4/CMakeFiles/edit_cache.dir
+C:/C++projects/OOP/out/build/GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)/lab4/CMakeFiles/rebuild_cache.dir
+C:/C++projects/OOP/out/build/GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)/lab4/CMakeFiles/list_install_components.dir
+C:/C++projects/OOP/out/build/GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)/lab4/CMakeFiles/install.dir
+C:/C++projects/OOP/out/build/GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)/lab4/CMakeFiles/install/local.dir
+C:/C++projects/OOP/out/build/GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)/lab4/CMakeFiles/install/strip.dir

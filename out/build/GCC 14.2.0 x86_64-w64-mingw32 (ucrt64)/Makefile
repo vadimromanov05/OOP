@@ -300,6 +300,32 @@ lab3_test/fast:
 	$(MAKE) $(MAKESILENT) -f lab3\CMakeFiles\lab3_test.dir\build.make lab3/CMakeFiles/lab3_test.dir/build
 .PHONY : lab3_test/fast
 
+#=============================================================================
+# Target rules for targets named lab4
+
+# Build rule for target.
+lab4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab4
+.PHONY : lab4
+
+# fast build rule for target.
+lab4/fast:
+	$(MAKE) $(MAKESILENT) -f lab4\CMakeFiles\lab4.dir\build.make lab4/CMakeFiles/lab4.dir/build
+.PHONY : lab4/fast
+
+#=============================================================================
+# Target rules for targets named lab4_test
+
+# Build rule for target.
+lab4_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab4_test
+.PHONY : lab4_test
+
+# fast build rule for target.
+lab4_test/fast:
+	$(MAKE) $(MAKESILENT) -f lab4\CMakeFiles\lab4_test.dir\build.make lab4/CMakeFiles/lab4_test.dir/build
+.PHONY : lab4_test/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -323,6 +349,8 @@ help:
 	@echo ... lab2_test
 	@echo ... lab3
 	@echo ... lab3_test
+	@echo ... lab4
+	@echo ... lab4_test
 .PHONY : help
 
 

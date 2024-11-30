@@ -4,7 +4,7 @@
 void Trangle::calculateFigureCenter() const {
     _centerX = (__x1 + __x2 + __x3) / 3;
     _centerY = (__y1 + __y2 + __y3) / 3;
-    _centerCalculated = true; 
+    _countCenter = true; 
 }
 
 Trangle::operator double() const {

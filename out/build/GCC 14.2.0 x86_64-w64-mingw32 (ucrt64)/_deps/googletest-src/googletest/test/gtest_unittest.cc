@@ -4568,7 +4568,7 @@ TEST(ExpectTest, ExpectPrecedence) {
 // Tests the StreamableToString() function.
 
 // Tests using StreamableToString() on a scalar.
-TEST(StreamableToStringTest, Scalar) {
+TEST(StreamableToStringTest, Value) {
   EXPECT_STREQ("5", StreamableToString(5).c_str());
 }
 

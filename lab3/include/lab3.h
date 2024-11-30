@@ -11,12 +11,12 @@
 class Figure {
 protected:
     mutable double _area;
-    mutable bool _areaCalculated;
+    mutable bool _CountSquare;
     mutable double _centerX, _centerY;
-    mutable bool _centerCalculated;
+    mutable bool _countCenter;
 
 public:
-    Figure() : _area(0), _areaCalculated(false), _centerX(0), _centerY(0), _centerCalculated(false) {}
+    Figure() : _area(0), _CountSquare(false), _centerX(0), _centerY(0), _countCenter(false) {}
     double getArea() const;
     double getFigureCenter() const;
 
