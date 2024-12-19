@@ -9,12 +9,13 @@
 #include <cmath>
 
 template <typename T>
-concept Value = std::is_arithmetic_v<T>;
+concept Value = std::is_arithmetic_v<T>; // это что-то, имеющее численное значение (число короче говоря)
 
 template <Value T>
 class Point {
 public:
-    T x, y;
+    T x;
+    T y;
 
     Point(T x = 0, T y = 0) : x(x), y(y) {}
 };
@@ -22,8 +23,8 @@ public:
 template <class T>
 class Array {
 private:
-    std::shared_ptr<T[]> data;  
-    size_t size;                
+    std::shared_ptr<T[]> data; //ссылка на массив
+    size_t size;
     size_t capacity;            
 
 public:
@@ -141,7 +142,7 @@ public:
     mutable bool _areaCalculated;
     mutable double _centerX, _centerY;
     mutable bool _centerCalculated;
-    std::vector<std::unique_ptr<Point<T>>> points;
+    std::vector<std::shared_ptr<Point<T>>> points;
 
 public:
     Figure() : _area(0), _areaCalculated(false), _centerX(0), _centerY(0), _centerCalculated(false) {}
@@ -159,9 +160,9 @@ template <Value T>
 class Triangle: public Figure<T> {
 public:
     Triangle() {
-        this->points.emplace_back(std::make_unique<Point<T>>(0, 0));
-        this->points.emplace_back(std::make_unique<Point<T>>(0, 0));
-        this->points.emplace_back(std::make_unique<Point<T>>(0, 0));
+        this->points.emplace_back(std::make_shared<Point<T>>(0, 0));
+        this->points.emplace_back(std::make_shared<Point<T>>(0, 0));
+        this->points.emplace_back(std::make_shared<Point<T>>(0, 0));
     }
 
     void calculateFigureCenter() const override;

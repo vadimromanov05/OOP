@@ -18,8 +18,8 @@ FetchContent_MakeAvailable(googletest)
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_executable(lab4 include/lab4.h src/trangle.cpp src/hexagon.cpp src/oktagon.cpp src/figure_and_point.cpp)
-#main.cpp
+add_executable(lab4 main.cpp include/lab4.h src/trangle.cpp src/hexagon.cpp src/oktagon.cpp src/figure_and_point.cpp)
+#src/trangle.cpp
 
 target_include_directories(lab4 PRIVATE include)
 
