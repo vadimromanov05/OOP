@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/C++projects/OOP/lab4/main.cpp" "lab4/CMakeFiles/lab4.dir/main.cpp.obj" "gcc" "lab4/CMakeFiles/lab4.dir/main.cpp.obj.d"
   "C:/C++projects/OOP/lab4/src/figure_and_point.cpp" "lab4/CMakeFiles/lab4.dir/src/figure_and_point.cpp.obj" "gcc" "lab4/CMakeFiles/lab4.dir/src/figure_and_point.cpp.obj.d"
   "C:/C++projects/OOP/lab4/src/hexagon.cpp" "lab4/CMakeFiles/lab4.dir/src/hexagon.cpp.obj" "gcc" "lab4/CMakeFiles/lab4.dir/src/hexagon.cpp.obj.d"
   "C:/C++projects/OOP/lab4/src/oktagon.cpp" "lab4/CMakeFiles/lab4.dir/src/oktagon.cpp.obj" "gcc" "lab4/CMakeFiles/lab4.dir/src/oktagon.cpp.obj.d"

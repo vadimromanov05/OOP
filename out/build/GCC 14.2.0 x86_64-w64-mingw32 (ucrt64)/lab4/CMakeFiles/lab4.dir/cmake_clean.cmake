@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/lab4.dir/main.cpp.obj"
+  "CMakeFiles/lab4.dir/main.cpp.obj.d"
   "CMakeFiles/lab4.dir/src/figure_and_point.cpp.obj"
   "CMakeFiles/lab4.dir/src/figure_and_point.cpp.obj.d"
   "CMakeFiles/lab4.dir/src/hexagon.cpp.obj"

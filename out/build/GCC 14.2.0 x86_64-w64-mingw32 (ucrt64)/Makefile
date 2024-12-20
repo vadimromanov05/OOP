@@ -326,6 +326,58 @@ lab4_test/fast:
 	$(MAKE) $(MAKESILENT) -f lab4\CMakeFiles\lab4_test.dir\build.make lab4/CMakeFiles/lab4_test.dir/build
 .PHONY : lab4_test/fast
 
+#=============================================================================
+# Target rules for targets named lab6
+
+# Build rule for target.
+lab6: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab6
+.PHONY : lab6
+
+# fast build rule for target.
+lab6/fast:
+	$(MAKE) $(MAKESILENT) -f lab6\CMakeFiles\lab6.dir\build.make lab6/CMakeFiles/lab6.dir/build
+.PHONY : lab6/fast
+
+#=============================================================================
+# Target rules for targets named lab6_test
+
+# Build rule for target.
+lab6_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab6_test
+.PHONY : lab6_test
+
+# fast build rule for target.
+lab6_test/fast:
+	$(MAKE) $(MAKESILENT) -f lab6\CMakeFiles\lab6_test.dir\build.make lab6/CMakeFiles/lab6_test.dir/build
+.PHONY : lab6_test/fast
+
+#=============================================================================
+# Target rules for targets named lab7
+
+# Build rule for target.
+lab7: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab7
+.PHONY : lab7
+
+# fast build rule for target.
+lab7/fast:
+	$(MAKE) $(MAKESILENT) -f lab7\CMakeFiles\lab7.dir\build.make lab7/CMakeFiles/lab7.dir/build
+.PHONY : lab7/fast
+
+#=============================================================================
+# Target rules for targets named lab7_test
+
+# Build rule for target.
+lab7_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab7_test
+.PHONY : lab7_test
+
+# fast build rule for target.
+lab7_test/fast:
+	$(MAKE) $(MAKESILENT) -f lab7\CMakeFiles\lab7_test.dir\build.make lab7/CMakeFiles/lab7_test.dir/build
+.PHONY : lab7_test/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -351,6 +403,10 @@ help:
 	@echo ... lab3_test
 	@echo ... lab4
 	@echo ... lab4_test
+	@echo ... lab6
+	@echo ... lab6_test
+	@echo ... lab7
+	@echo ... lab7_test
 .PHONY : help
 
 

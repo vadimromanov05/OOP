@@ -198,6 +198,30 @@ lab4_test/fast:
 	cd /d C:\C__PRO~1\OOP\out\build\GCC142~1.0X8 && $(MAKE) $(MAKESILENT) -f lab4\CMakeFiles\lab4_test.dir\build.make lab4/CMakeFiles/lab4_test.dir/build
 .PHONY : lab4_test/fast
 
+main.obj: main.cpp.obj
+.PHONY : main.obj
+
+# target to build an object file
+main.cpp.obj:
+	cd /d C:\C__PRO~1\OOP\out\build\GCC142~1.0X8 && $(MAKE) $(MAKESILENT) -f lab4\CMakeFiles\lab4.dir\build.make lab4/CMakeFiles/lab4.dir/main.cpp.obj
+.PHONY : main.cpp.obj
+
+main.i: main.cpp.i
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	cd /d C:\C__PRO~1\OOP\out\build\GCC142~1.0X8 && $(MAKE) $(MAKESILENT) -f lab4\CMakeFiles\lab4.dir\build.make lab4/CMakeFiles/lab4.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	cd /d C:\C__PRO~1\OOP\out\build\GCC142~1.0X8 && $(MAKE) $(MAKESILENT) -f lab4\CMakeFiles\lab4.dir\build.make lab4/CMakeFiles/lab4.dir/main.cpp.s
+.PHONY : main.cpp.s
+
 src/figure_and_point.obj: src/figure_and_point.cpp.obj
 .PHONY : src/figure_and_point.obj
 
@@ -345,6 +369,9 @@ help:
 	@echo ... test
 	@echo ... lab4
 	@echo ... lab4_test
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
 	@echo ... src/figure_and_point.obj
 	@echo ... src/figure_and_point.i
 	@echo ... src/figure_and_point.s

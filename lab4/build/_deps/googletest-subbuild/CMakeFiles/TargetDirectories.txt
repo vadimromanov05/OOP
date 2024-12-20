@@ -1,3 +1,0 @@
-C:/C++projects/OOP/lab4/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
-C:/C++projects/OOP/lab4/build/_deps/googletest-subbuild/CMakeFiles/edit_cache.dir
-C:/C++projects/OOP/lab4/build/_deps/googletest-subbuild/CMakeFiles/rebuild_cache.dir

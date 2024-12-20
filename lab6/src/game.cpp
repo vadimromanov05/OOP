@@ -1,4 +1,3 @@
-
 #include "../include/game.h"
 
 void Game::NotifyObservers(const std::string& message){

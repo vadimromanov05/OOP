@@ -68,11 +68,26 @@ include lab4/CMakeFiles/lab4.dir/progress.make
 # Include the compile flags for this target's objects.
 include lab4/CMakeFiles/lab4.dir/flags.make
 
+lab4/CMakeFiles/lab4.dir/main.cpp.obj: lab4/CMakeFiles/lab4.dir/flags.make
+lab4/CMakeFiles/lab4.dir/main.cpp.obj: lab4/CMakeFiles/lab4.dir/includes_CXX.rsp
+lab4/CMakeFiles/lab4.dir/main.cpp.obj: C:/C++projects/OOP/lab4/main.cpp
+lab4/CMakeFiles/lab4.dir/main.cpp.obj: lab4/CMakeFiles/lab4.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\C++projects\OOP\out\build\GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lab4/CMakeFiles/lab4.dir/main.cpp.obj"
+	cd /d C:\C__PRO~1\OOP\out\build\GCC142~1.0X8\lab4 && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lab4/CMakeFiles/lab4.dir/main.cpp.obj -MF CMakeFiles\lab4.dir\main.cpp.obj.d -o CMakeFiles\lab4.dir\main.cpp.obj -c C:\C++projects\OOP\lab4\main.cpp
+
+lab4/CMakeFiles/lab4.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab4.dir/main.cpp.i"
+	cd /d C:\C__PRO~1\OOP\out\build\GCC142~1.0X8\lab4 && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\C++projects\OOP\lab4\main.cpp > CMakeFiles\lab4.dir\main.cpp.i
+
+lab4/CMakeFiles/lab4.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab4.dir/main.cpp.s"
+	cd /d C:\C__PRO~1\OOP\out\build\GCC142~1.0X8\lab4 && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\C++projects\OOP\lab4\main.cpp -o CMakeFiles\lab4.dir\main.cpp.s
+
 lab4/CMakeFiles/lab4.dir/src/trangle.cpp.obj: lab4/CMakeFiles/lab4.dir/flags.make
 lab4/CMakeFiles/lab4.dir/src/trangle.cpp.obj: lab4/CMakeFiles/lab4.dir/includes_CXX.rsp
 lab4/CMakeFiles/lab4.dir/src/trangle.cpp.obj: C:/C++projects/OOP/lab4/src/trangle.cpp
 lab4/CMakeFiles/lab4.dir/src/trangle.cpp.obj: lab4/CMakeFiles/lab4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\C++projects\OOP\out\build\GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lab4/CMakeFiles/lab4.dir/src/trangle.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\C++projects\OOP\out\build\GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lab4/CMakeFiles/lab4.dir/src/trangle.cpp.obj"
 	cd /d C:\C__PRO~1\OOP\out\build\GCC142~1.0X8\lab4 && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lab4/CMakeFiles/lab4.dir/src/trangle.cpp.obj -MF CMakeFiles\lab4.dir\src\trangle.cpp.obj.d -o CMakeFiles\lab4.dir\src\trangle.cpp.obj -c C:\C++projects\OOP\lab4\src\trangle.cpp
 
 lab4/CMakeFiles/lab4.dir/src/trangle.cpp.i: cmake_force
@@ -87,7 +102,7 @@ lab4/CMakeFiles/lab4.dir/src/hexagon.cpp.obj: lab4/CMakeFiles/lab4.dir/flags.mak
 lab4/CMakeFiles/lab4.dir/src/hexagon.cpp.obj: lab4/CMakeFiles/lab4.dir/includes_CXX.rsp
 lab4/CMakeFiles/lab4.dir/src/hexagon.cpp.obj: C:/C++projects/OOP/lab4/src/hexagon.cpp
 lab4/CMakeFiles/lab4.dir/src/hexagon.cpp.obj: lab4/CMakeFiles/lab4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\C++projects\OOP\out\build\GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lab4/CMakeFiles/lab4.dir/src/hexagon.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\C++projects\OOP\out\build\GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object lab4/CMakeFiles/lab4.dir/src/hexagon.cpp.obj"
 	cd /d C:\C__PRO~1\OOP\out\build\GCC142~1.0X8\lab4 && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lab4/CMakeFiles/lab4.dir/src/hexagon.cpp.obj -MF CMakeFiles\lab4.dir\src\hexagon.cpp.obj.d -o CMakeFiles\lab4.dir\src\hexagon.cpp.obj -c C:\C++projects\OOP\lab4\src\hexagon.cpp
 
 lab4/CMakeFiles/lab4.dir/src/hexagon.cpp.i: cmake_force
@@ -102,7 +117,7 @@ lab4/CMakeFiles/lab4.dir/src/oktagon.cpp.obj: lab4/CMakeFiles/lab4.dir/flags.mak
 lab4/CMakeFiles/lab4.dir/src/oktagon.cpp.obj: lab4/CMakeFiles/lab4.dir/includes_CXX.rsp
 lab4/CMakeFiles/lab4.dir/src/oktagon.cpp.obj: C:/C++projects/OOP/lab4/src/oktagon.cpp
 lab4/CMakeFiles/lab4.dir/src/oktagon.cpp.obj: lab4/CMakeFiles/lab4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\C++projects\OOP\out\build\GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object lab4/CMakeFiles/lab4.dir/src/oktagon.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\C++projects\OOP\out\build\GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object lab4/CMakeFiles/lab4.dir/src/oktagon.cpp.obj"
 	cd /d C:\C__PRO~1\OOP\out\build\GCC142~1.0X8\lab4 && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lab4/CMakeFiles/lab4.dir/src/oktagon.cpp.obj -MF CMakeFiles\lab4.dir\src\oktagon.cpp.obj.d -o CMakeFiles\lab4.dir\src\oktagon.cpp.obj -c C:\C++projects\OOP\lab4\src\oktagon.cpp
 
 lab4/CMakeFiles/lab4.dir/src/oktagon.cpp.i: cmake_force
@@ -117,7 +132,7 @@ lab4/CMakeFiles/lab4.dir/src/figure_and_point.cpp.obj: lab4/CMakeFiles/lab4.dir/
 lab4/CMakeFiles/lab4.dir/src/figure_and_point.cpp.obj: lab4/CMakeFiles/lab4.dir/includes_CXX.rsp
 lab4/CMakeFiles/lab4.dir/src/figure_and_point.cpp.obj: C:/C++projects/OOP/lab4/src/figure_and_point.cpp
 lab4/CMakeFiles/lab4.dir/src/figure_and_point.cpp.obj: lab4/CMakeFiles/lab4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\C++projects\OOP\out\build\GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object lab4/CMakeFiles/lab4.dir/src/figure_and_point.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\C++projects\OOP\out\build\GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object lab4/CMakeFiles/lab4.dir/src/figure_and_point.cpp.obj"
 	cd /d C:\C__PRO~1\OOP\out\build\GCC142~1.0X8\lab4 && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lab4/CMakeFiles/lab4.dir/src/figure_and_point.cpp.obj -MF CMakeFiles\lab4.dir\src\figure_and_point.cpp.obj.d -o CMakeFiles\lab4.dir\src\figure_and_point.cpp.obj -c C:\C++projects\OOP\lab4\src\figure_and_point.cpp
 
 lab4/CMakeFiles/lab4.dir/src/figure_and_point.cpp.i: cmake_force
@@ -130,6 +145,7 @@ lab4/CMakeFiles/lab4.dir/src/figure_and_point.cpp.s: cmake_force
 
 # Object files for target lab4
 lab4_OBJECTS = \
+"CMakeFiles/lab4.dir/main.cpp.obj" \
 "CMakeFiles/lab4.dir/src/trangle.cpp.obj" \
 "CMakeFiles/lab4.dir/src/hexagon.cpp.obj" \
 "CMakeFiles/lab4.dir/src/oktagon.cpp.obj" \
@@ -138,6 +154,7 @@ lab4_OBJECTS = \
 # External object files for target lab4
 lab4_EXTERNAL_OBJECTS =
 
+lab4/lab4.exe: lab4/CMakeFiles/lab4.dir/main.cpp.obj
 lab4/lab4.exe: lab4/CMakeFiles/lab4.dir/src/trangle.cpp.obj
 lab4/lab4.exe: lab4/CMakeFiles/lab4.dir/src/hexagon.cpp.obj
 lab4/lab4.exe: lab4/CMakeFiles/lab4.dir/src/oktagon.cpp.obj
@@ -146,7 +163,7 @@ lab4/lab4.exe: lab4/CMakeFiles/lab4.dir/build.make
 lab4/lab4.exe: lab4/CMakeFiles/lab4.dir/linkLibs.rsp
 lab4/lab4.exe: lab4/CMakeFiles/lab4.dir/objects1.rsp
 lab4/lab4.exe: lab4/CMakeFiles/lab4.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\C++projects\OOP\out\build\GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable lab4.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\C++projects\OOP\out\build\GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable lab4.exe"
 	cd /d C:\C__PRO~1\OOP\out\build\GCC142~1.0X8\lab4 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\lab4.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
