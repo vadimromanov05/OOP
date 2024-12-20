@@ -1,0 +1,39 @@
+Start testing: Nov 14 13:08 Волгоград (зима)
+----------------------------------------------------------
+4/4 Testing: lab4_test
+4/4 Test: lab4_test
+Command: "C:/C++projects/OOP/out/build/GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)/lab4/lab4_test.exe"
+Directory: C:/C++projects/OOP/out/build/GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)/lab4
+"lab4_test" start time: Nov 14 13:08 Волгоград (зима)
+Output:
+----------------------------------------------------------
+Running main() from C:\C++projects\OOP\out\build\GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)\_deps\googletest-src\googletest\src\gtest_main.cc
+[==========] Running 6 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 6 tests from FigureTest
+[ RUN      ] FigureTest.ArrayTotalArea
+[       OK ] FigureTest.ArrayTotalArea (0 ms)
+[ RUN      ] FigureTest.ArrayTotalAreaWithDeleteElement
+[       OK ] FigureTest.ArrayTotalAreaWithDeleteElement (0 ms)
+[ RUN      ] FigureTest.TraingleisTrangle
+[       OK ] FigureTest.TraingleisTrangle (0 ms)
+[ RUN      ] FigureTest.TrangleOutputStream
+[       OK ] FigureTest.TrangleOutputStream (0 ms)
+[ RUN      ] FigureTest.RhombInputStream
+[       OK ] FigureTest.RhombInputStream (0 ms)
+[ RUN      ] FigureTest.OktagonOperatorDouble
+[       OK ] FigureTest.OktagonOperatorDouble (0 ms)
+[----------] 6 tests from FigureTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 6 tests from 1 test suite ran. (1 ms total)
+[  PASSED  ] 6 tests.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"lab4_test" end time: Nov 14 13:08 Волгоград (зима)
+"lab4_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 14 13:08 Волгоград (зима)

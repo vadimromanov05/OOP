@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20241114-1003-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.30.3"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Windows"
+	Hostname="HuaweiRomanov"
+	OSRelease=" Personal"
+	OSVersion=" (Build 22631)"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="12"
+	ProcessorCacheSize="-1"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="18615"
+	TotalPhysicalMemory="16183"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="2803"
+	>
+	<Testing>
+		<StartDateTime>Nov 14 13:08 [NON-UTF-8-BYTE-0xC2][NON-UTF-8-BYTE-0xEE][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xE3][NON-UTF-8-BYTE-0xEE][NON-UTF-8-BYTE-0xE3][NON-UTF-8-BYTE-0xF0][NON-UTF-8-BYTE-0xE0][NON-UTF-8-BYTE-0xE4] ([NON-UTF-8-BYTE-0xE7][NON-UTF-8-BYTE-0xE8][NON-UTF-8-BYTE-0xEC][NON-UTF-8-BYTE-0xE0])</StartDateTime>
+		<StartTestTime>1731578909</StartTestTime>
+		<TestList>
+			<Test>./lab4/lab4_test</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>lab4_test</Name>
+			<Path>./lab4</Path>
+			<FullName>./lab4/lab4_test</FullName>
+			<FullCommandLine>"C:\C++projects\OOP\out\build\GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)\lab4\lab4_test.exe"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0393107</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>"C:\C++projects\OOP\out\build\GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)\lab4\lab4_test.exe"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNk11rwjAUhu/7K86lRVrUSRmDXUh1MgarVMcujEhas9qtTUpyMrd/v0RF/Ji2Bwo56ZP3PTlJYs15zjMoac5bLnxIUUL4QMJ2u5Lik6WoSBRNiNBIEp0XKzIOQ+j2/Z7fgZ/7YBn0vY35SqOxuetBS6cSg75LlitWKZIJkRUMmUJPyfQoJdvUjpbW2U9TZ/54iAXE+7ICsIza1dXdJqB0jsx35t4hFjAuREKL3X/Gv3MpeMm4YRl6ujqDT0Sf8kxLNjMTzhzit1fYxuJo3h9ISX9nAmkxkIwabBfRyy0MWh0oldtQ9D3H9ZDZ3owKZitv6HKxrs52Jk27zSHkyozs4KrRBdlA2mKRxkrjFE115S3xc7ZOPl6LMnnm9drnYJ1w9IU0EzyqmKQo5FDo5EZb/qUPFg2uGbS6hgW0R+g6za4xMiq9ldjw01dy9XWAaa9/amT2MxlMp6Oh3f1+oe/8ASS3SHI=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Nov 14 13:08 [NON-UTF-8-BYTE-0xC2][NON-UTF-8-BYTE-0xEE][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xE3][NON-UTF-8-BYTE-0xEE][NON-UTF-8-BYTE-0xE3][NON-UTF-8-BYTE-0xF0][NON-UTF-8-BYTE-0xE0][NON-UTF-8-BYTE-0xE4] ([NON-UTF-8-BYTE-0xE7][NON-UTF-8-BYTE-0xE8][NON-UTF-8-BYTE-0xEC][NON-UTF-8-BYTE-0xE0])</EndDateTime>
+		<EndTestTime>1731578909</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

@@ -11,6 +11,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/C++projects/OOP/lab1/CMakeLists.txt"
   "C:/C++projects/OOP/lab2/CMakeLists.txt"
   "C:/C++projects/OOP/lab3/CMakeLists.txt"
+  "C:/C++projects/OOP/lab4/CMakeLists.txt"
+  "C:/C++projects/OOP/lab6/CMakeLists.txt"
+  "C:/C++projects/OOP/lab7/CMakeLists.txt"
   "CMakeFiles/3.30.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.30.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.30.3/CMakeRCCompiler.cmake"
@@ -87,6 +90,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "lab1/CMakeFiles/CMakeDirectoryInformation.cmake"
   "lab2/CMakeFiles/CMakeDirectoryInformation.cmake"
   "lab3/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lab4/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lab6/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lab7/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -101,4 +107,10 @@ set(CMAKE_DEPEND_INFO_FILES
   "lab2/CMakeFiles/lab2_test.dir/DependInfo.cmake"
   "lab3/CMakeFiles/lab3.dir/DependInfo.cmake"
   "lab3/CMakeFiles/lab3_test.dir/DependInfo.cmake"
+  "lab4/CMakeFiles/lab4.dir/DependInfo.cmake"
+  "lab4/CMakeFiles/lab4_test.dir/DependInfo.cmake"
+  "lab6/CMakeFiles/lab6.dir/DependInfo.cmake"
+  "lab6/CMakeFiles/lab6_test.dir/DependInfo.cmake"
+  "lab7/CMakeFiles/lab7.dir/DependInfo.cmake"
+  "lab7/CMakeFiles/lab7_test.dir/DependInfo.cmake"
   )

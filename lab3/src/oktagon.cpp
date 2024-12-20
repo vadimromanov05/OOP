@@ -4,7 +4,7 @@
 void Oktagon::calculateFigureCenter() const {
     _centerX = (__x1 + __x2 + __x3 + __x4 + __x5 + __x6 + __x7 + __x8) / 8;
     _centerY = (__y1 + __y2 + __y3 + __y4 + __y5 + __y6 + __y7 + __y8) / 8;
-    _centerCalculated = true;
+    _countCenter = true;
 }
 
 Oktagon::operator double() const {

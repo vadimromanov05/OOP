@@ -329,13 +329,40 @@ FETCHCONTENT_UPDATES_DISCONNECTED_GOOGLETEST:BOOL=OFF
 INSTALL_GTEST:BOOL=ON
 
 //Value Computed by CMake
-Lab1_BINARY_DIR:STATIC=C:/C++projects/OOP/out/build/GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)/lab3
+Lab1_BINARY_DIR:STATIC=C:/C++projects/OOP/out/build/GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)/lab2
 
 //Value Computed by CMake
 Lab1_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-Lab1_SOURCE_DIR:STATIC=C:/C++projects/OOP/lab3
+Lab1_SOURCE_DIR:STATIC=C:/C++projects/OOP/lab2
+
+//Value Computed by CMake
+Lab4_BINARY_DIR:STATIC=C:/C++projects/OOP/out/build/GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)/lab4
+
+//Value Computed by CMake
+Lab4_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Lab4_SOURCE_DIR:STATIC=C:/C++projects/OOP/lab4
+
+//Value Computed by CMake
+Lab5_BINARY_DIR:STATIC=C:/C++projects/OOP/out/build/GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)/lab5
+
+//Value Computed by CMake
+Lab5_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Lab5_SOURCE_DIR:STATIC=C:/C++projects/OOP/lab5
+
+//Value Computed by CMake
+Lab6_BINARY_DIR:STATIC=C:/C++projects/OOP/out/build/GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)/lab7
+
+//Value Computed by CMake
+Lab6_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Lab6_SOURCE_DIR:STATIC=C:/C++projects/OOP/lab7
 
 //Value Computed by CMake
 OOP_LABS_BINARY_DIR:STATIC=C:/C++projects/OOP/out/build/GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)
@@ -400,6 +427,15 @@ gtest_hide_internal_symbols:BOOL=OFF
 
 //Dependencies for the target
 gtest_main_LIB_DEPENDS:STATIC=general;gtest;
+
+//Value Computed by CMake
+lab3_BINARY_DIR:STATIC=C:/C++projects/OOP/out/build/GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)/lab3
+
+//Value Computed by CMake
+lab3_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+lab3_SOURCE_DIR:STATIC=C:/C++projects/OOP/lab3
 
 
 ########################
@@ -542,7 +578,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=10
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

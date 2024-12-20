@@ -1,4 +1,5 @@
 lab1_test 12 0.0167487
 lab2_test 2 0.141233
 lab3_test 6 0.0407061
+lab4_test 1 0.0393107
 ---
